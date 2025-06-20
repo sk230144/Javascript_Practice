@@ -8,8 +8,8 @@ var ans1 = reverseBySeparator(ans, " ");
 //**************** IMPORTANT FUNCTION ******************************* */
 
 
-function reverseBySeparator(string, seprator) {
-    return string.split(seprator).reverse().join(seprator);
+function reverseBySeparator(string, separator) {
+    return string.split(separator).reverse().join(separator);
 }
 
 
